@@ -1,0 +1,30 @@
+#webcam{
+    margin-right: 800px;
+    margin-bottom: 20px;
+}
+#predict{
+    margin-left: 50px;
+    margin-top: -350px;
+}
+#camera
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+  margin-right: 900px;
+}
+#snapshot{
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px; 
+    margin-left: 900px;
+    margin-top: -300px;
+}
+#snap{
+    margin-left: 1000px; 
+    margin-top: -350px;
+}
+body{
+    background-color: rgb(255, 47, 5);
+    color : white;
+}

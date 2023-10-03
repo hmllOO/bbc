@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Hand Gesture Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+        <h3 class="btn btn-info heading">Hand Gesture Web App
+            <br>
+            &#128076;
+            &#128077;
+            &#128078;
+            &#128406;
+        </h3>
+        <h2>Take a selfie of a gesture to know its meaning</h2>
+        <h3> The modal is trained on the following gestures
+            <br>
+            &#128076;
+            |
+            &#128077;
+            |
+            &#128406;
+
+        </h3>
+        <h4 id="webcam" class="btn btn-success">Webcam view</h4>
+        <div id="camera"></div>
+        <h4 id="snap" class="btn btn-success">Snapshot</h4>
+        <div id="snapshot"></div>
+        <h4 id="predict" class="btn btn-success">Prediction</h4>
+       
+    </center>
+    </div>
+    </body>
+    </html>
